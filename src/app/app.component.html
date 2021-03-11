@@ -1,0 +1,15 @@
+<h1>Lopende band met knikkers</h1>
+
+<input type="text" [value]="input" (input)="input = $event.target.value" /> <button (click)="updateMarbles()" class="btn-primary">Update</button>
+
+<br /><br /><br />
+
+<ng-container *ngFor="let marble of marbles">
+  <app-marble [color]="'marble-' + marble"></app-marble>
+</ng-container>
+
+<app-conveyor></app-conveyor>
+
+<br /><br /><br />
+
+<app-box></app-box>

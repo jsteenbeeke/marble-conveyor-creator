@@ -1,0 +1,9 @@
+<input type="text" [value]="input" (input)="input = $event.target.value" /> <button (click)="updateMarbles()" class="btn-primary">Update</button>
+
+<br /><br /><br />
+
+<div class="box">
+  <ng-container *ngFor="let marble of marbles">
+    <app-marble [base]="'marble-boxed'" [color]="'marble-' + marble"></app-marble>
+  </ng-container>
+</div>

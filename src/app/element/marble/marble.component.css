@@ -1,0 +1,30 @@
+.marble {
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.marble-boxed {
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 2px;
+
+}
+
+.marble-red {
+  background-color: #ff0000;
+}
+
+.marble-blue {
+  background-color: #0000ff;
+}
+
+.marble-green {
+  background-color: #00ff00;
+}
